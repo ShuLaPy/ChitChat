@@ -43,6 +43,10 @@
   height: 100%;
 }
 
+.round-chat {
+  border-radius: 1rem !important;
+}
+
 input::placeholder {
   font-size: 0.9rem;
   color: #999;

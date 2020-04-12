@@ -98,7 +98,7 @@ function writeMessage(message) {
             <div class="media-body">
                 <span class="small user-name text-muted">You</span>
                 <div>
-                <div class="bg-primary chat-trim rounded py-2 px-3 mb-2">
+                <div class="bg-primary round-chat chat-trim py-2 px-3 mb-2">
                     <p class="text-small mb-0 text-white">${message.msg}</p>
                 </div>
                 </div>
@@ -114,7 +114,7 @@ function writeMessage(message) {
         <div class="media-body ml-3">
         <span class="small user-name text-muted">${message.username}</span>
         <div>
-            <div class="bg-light chat-trim rounded py-2 px-3 mb-2">
+            <div class="bg-light chat-trim round-chat py-2 px-3 mb-2">
             <p class="text-small mb-0 text-muted">${message.msg}</p>
             </div>
         </div>
