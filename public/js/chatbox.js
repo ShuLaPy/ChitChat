@@ -34,6 +34,7 @@ function typingTimeout(){
 
 socket.on('display', ({data, user})=>{
     if(data.typing==true){
+      $('#typing').attr('style', 'color: #4AC959 !important')
       $('#typing').text(`${user.username} is typing...`)
     } else {
         outputUsers(user);
@@ -133,5 +134,6 @@ function outputRoomName(room) {
 //add users to DOM
 function outputUsers(users) {
     let userNames = users.map(user => user.username).join(", ");
+    $('#typing').attr('style', 'color: #6c757d !important');
     $('#typing').text(userNames.slice(0,30).concat("..."));
 }
