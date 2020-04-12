@@ -34,7 +34,7 @@ body {
 
 .messages-box,
 .chat-box {
-  height: 75vh;
+  height: 70vh;
   overflow-y: scroll;
 }
 
@@ -84,7 +84,7 @@ input:focus{
   }
   .messages-box,
   .chat-box {
-    height: 80vh;
+    height: 70vh;
     overflow-y: scroll;
   }
 }
