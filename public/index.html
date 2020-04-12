@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <title>Chat App</title>
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Hey! Welcome.</h5>
+            <form class="form-signin" action="chatbox.html">
+              <div class="form-label-group">
+                <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
+                <label for="username">Username</label>
+              </div>
+
+              <div class="form-label-select">
+                <select id="gender" name="gender" class="form-control" required>
+                  <option></option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+                <label for="gender">Gender</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="text" name="room" id="room" class="form-control" placeholder="Room name" required>
+                <label for="room">Room Name</label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Enter in ChatRoom</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
