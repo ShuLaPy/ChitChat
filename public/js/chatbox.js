@@ -14,7 +14,7 @@ const {username, room, gender} = Qs.parse(location.search, {
 
 
 //add typing functionality
-$('#msg').keypress((e)=>{
+$('#msg').keyup((e)=>{
     if(e.which!=13){
       typing=true
       socket.emit('typing', {user:username, typing:true})
