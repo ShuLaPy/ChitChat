@@ -100,10 +100,10 @@ input:focus{
   }
 
   form {
-    overflow:hidden;
+    min-height: 10%;
   }
 
   #header {
-    overflow:hidden;
+    min-height: 13%;
   }
 }
